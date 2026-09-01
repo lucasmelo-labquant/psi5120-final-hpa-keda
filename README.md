@@ -41,6 +41,7 @@ Detailed methodology is documented in `PROTOCOL.md`.
 - `scripts/`: guarded lifecycle and campaign automation;
 - `tests/`: local unit tests.
 - `paper/`: IEEE paper source and verified bibliography.
+- `paper/paper.pdf`: compiled 10-page IEEE paper.
 - `results/main-v2/`: raw observations from 35 valid main runs.
 - `results/analysis/`: paired estimates, figures, and campaign status.
 - `traces/`: frozen arrival and service-demand traces.

@@ -1,0 +1,3 @@
+pattern,traces,jobs_min,jobs_max,mean_rate,median_inter_arrival_cv,median_max_arrivals_1s,median_max_arrivals_5s,median_max_arrivals_15s,median_max_arrivals_30s,median_high_state_arrival_fraction
+mmpp,9,260,310,1.6092592592592592,1.9378915900544582,11.0,30.0,68.0,103.0,0.850909090909091
+poisson,9,271,327,1.6271604938271604,0.9905391013177117,7.0,17.0,39.0,63.0,
