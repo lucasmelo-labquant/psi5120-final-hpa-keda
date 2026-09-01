@@ -1,0 +1,31 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: psi5120-final-eks
+  region: us-east-1
+
+iam:
+  withOIDC: true
+
+vpc:
+  nat:
+    gateway: Disable
+
+managedNodeGroups:
+  - name: workers
+    instanceType: c7i-flex.large
+    minSize: 1
+    desiredCapacity: 1
+    maxSize: 1
+    volumeSize: 20
+    volumeType: gp3
+    privateNetworking: false
+    ssh:
+      allow: false
+    labels:
+      workload: psi5120-final
+    tags:
+      Project: PSI5120-FINAL
+      Student: Lucas-Melo-Rocha
+      CostCenter: PSI5120

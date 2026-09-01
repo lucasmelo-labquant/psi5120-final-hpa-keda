@@ -1,0 +1,9 @@
+{
+  "invalid_attempts_present": false,
+  "pairs_per_pattern": {
+    "poisson": 9,
+    "mmpp": 8
+  },
+  "all_primary_intervals_within_10_percent": false,
+  "five_additional_seeds_required": true
+}

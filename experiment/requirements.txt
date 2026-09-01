@@ -1,0 +1,6 @@
+boto3==1.40.21
+numpy==2.2.6
+pandas==2.3.2
+matplotlib==3.10.5
+scipy==1.15.3
+PyYAML==6.0.2

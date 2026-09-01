@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sqs-worker
+  namespace: scaling-study
+  labels:
+    app: sqs-worker
+    app.kubernetes.io/part-of: psi5120-final
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sqs-worker
+  template:
+    metadata:
+      labels:
+        app: sqs-worker
+        app.kubernetes.io/part-of: psi5120-final
+      annotations:
+        psi5120/source-context-sha256: REPLACE_SOURCE_HASH
+    spec:
+      serviceAccountName: sqs-worker
+      terminationGracePeriodSeconds: 30
+      containers:
+        - name: worker
+          image: REPLACE_IMAGE_URI
+          imagePullPolicy: Always
+          env:
+            - name: AWS_REGION
+              value: us-east-1
+            - name: INPUT_QUEUE_URL
+              value: REPLACE_INPUT_QUEUE_URL
+            - name: RESULT_QUEUE_URL
+              value: REPLACE_RESULT_QUEUE_URL
+            - name: WAIT_TIME_SECONDS
+              value: "10"
+            - name: VISIBILITY_TIMEOUT_SECONDS
+              value: "120"
+            - name: NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+          resources:
+            requests:
+              cpu: 200m
+              memory: 96Mi
+            limits:
+              cpu: 400m
+              memory: 192Mi
+          readinessProbe:
+            exec:
+              command: ["python", "-c", "import boto3"]
+            initialDelaySeconds: 2
+            periodSeconds: 10
+            timeoutSeconds: 5
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop: ["ALL"]
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+      securityContext:
+        seccompProfile:
+          type: RuntimeDefault

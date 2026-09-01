@@ -1,0 +1,2004 @@
+{
+  "schema_version": 1,
+  "pattern": "poisson",
+  "seed": 404,
+  "arrival_seed": 404,
+  "generation_attempt": 1,
+  "duration_s": 180.0,
+  "service_rate": 5.0,
+  "parameters": {
+    "mean_rate": 1.6
+  },
+  "job_count": 284,
+  "empirical_rate": 1.5777777777777777,
+  "jobs": [
+    {
+      "job_id": "000000",
+      "trace_offset_s": 0.057193,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.114196,
+      "work_seed": "poisson-404-000000"
+    },
+    {
+      "job_id": "000001",
+      "trace_offset_s": 0.382572,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.272301,
+      "work_seed": "poisson-404-000001"
+    },
+    {
+      "job_id": "000002",
+      "trace_offset_s": 0.384607,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.059021,
+      "work_seed": "poisson-404-000002"
+    },
+    {
+      "job_id": "000003",
+      "trace_offset_s": 0.445931,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.089188,
+      "work_seed": "poisson-404-000003"
+    },
+    {
+      "job_id": "000004",
+      "trace_offset_s": 1.013557,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.008987,
+      "work_seed": "poisson-404-000004"
+    },
+    {
+      "job_id": "000005",
+      "trace_offset_s": 1.266414,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.206237,
+      "work_seed": "poisson-404-000005"
+    },
+    {
+      "job_id": "000006",
+      "trace_offset_s": 1.581554,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.121603,
+      "work_seed": "poisson-404-000006"
+    },
+    {
+      "job_id": "000007",
+      "trace_offset_s": 1.64746,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.142371,
+      "work_seed": "poisson-404-000007"
+    },
+    {
+      "job_id": "000008",
+      "trace_offset_s": 2.985732,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.096323,
+      "work_seed": "poisson-404-000008"
+    },
+    {
+      "job_id": "000009",
+      "trace_offset_s": 3.674423,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.228485,
+      "work_seed": "poisson-404-000009"
+    },
+    {
+      "job_id": "000010",
+      "trace_offset_s": 4.083111,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.169118,
+      "work_seed": "poisson-404-000010"
+    },
+    {
+      "job_id": "000011",
+      "trace_offset_s": 4.55772,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.430589,
+      "work_seed": "poisson-404-000011"
+    },
+    {
+      "job_id": "000012",
+      "trace_offset_s": 4.681054,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.099858,
+      "work_seed": "poisson-404-000012"
+    },
+    {
+      "job_id": "000013",
+      "trace_offset_s": 5.231655,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.184238,
+      "work_seed": "poisson-404-000013"
+    },
+    {
+      "job_id": "000014",
+      "trace_offset_s": 6.097559,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.006123,
+      "work_seed": "poisson-404-000014"
+    },
+    {
+      "job_id": "000015",
+      "trace_offset_s": 6.224426,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.005,
+      "work_seed": "poisson-404-000015"
+    },
+    {
+      "job_id": "000016",
+      "trace_offset_s": 6.319623,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.301239,
+      "work_seed": "poisson-404-000016"
+    },
+    {
+      "job_id": "000017",
+      "trace_offset_s": 6.760494,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.453765,
+      "work_seed": "poisson-404-000017"
+    },
+    {
+      "job_id": "000018",
+      "trace_offset_s": 6.849287,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.038279,
+      "work_seed": "poisson-404-000018"
+    },
+    {
+      "job_id": "000019",
+      "trace_offset_s": 7.177361,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.188894,
+      "work_seed": "poisson-404-000019"
+    },
+    {
+      "job_id": "000020",
+      "trace_offset_s": 7.371546,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.223967,
+      "work_seed": "poisson-404-000020"
+    },
+    {
+      "job_id": "000021",
+      "trace_offset_s": 7.400895,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.030325,
+      "work_seed": "poisson-404-000021"
+    },
+    {
+      "job_id": "000022",
+      "trace_offset_s": 7.660276,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.04771,
+      "work_seed": "poisson-404-000022"
+    },
+    {
+      "job_id": "000023",
+      "trace_offset_s": 8.719177,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.036811,
+      "work_seed": "poisson-404-000023"
+    },
+    {
+      "job_id": "000024",
+      "trace_offset_s": 9.212687,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.03297,
+      "work_seed": "poisson-404-000024"
+    },
+    {
+      "job_id": "000025",
+      "trace_offset_s": 9.358538,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.111838,
+      "work_seed": "poisson-404-000025"
+    },
+    {
+      "job_id": "000026",
+      "trace_offset_s": 9.392156,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.029189,
+      "work_seed": "poisson-404-000026"
+    },
+    {
+      "job_id": "000027",
+      "trace_offset_s": 9.453965,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.199162,
+      "work_seed": "poisson-404-000027"
+    },
+    {
+      "job_id": "000028",
+      "trace_offset_s": 12.345553,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.180924,
+      "work_seed": "poisson-404-000028"
+    },
+    {
+      "job_id": "000029",
+      "trace_offset_s": 13.242778,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.008871,
+      "work_seed": "poisson-404-000029"
+    },
+    {
+      "job_id": "000030",
+      "trace_offset_s": 13.81896,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.201589,
+      "work_seed": "poisson-404-000030"
+    },
+    {
+      "job_id": "000031",
+      "trace_offset_s": 14.314088,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.030947,
+      "work_seed": "poisson-404-000031"
+    },
+    {
+      "job_id": "000032",
+      "trace_offset_s": 15.505217,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.481081,
+      "work_seed": "poisson-404-000032"
+    },
+    {
+      "job_id": "000033",
+      "trace_offset_s": 15.578291,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.067296,
+      "work_seed": "poisson-404-000033"
+    },
+    {
+      "job_id": "000034",
+      "trace_offset_s": 16.52288,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.793848,
+      "work_seed": "poisson-404-000034"
+    },
+    {
+      "job_id": "000035",
+      "trace_offset_s": 17.629498,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.66542,
+      "work_seed": "poisson-404-000035"
+    },
+    {
+      "job_id": "000036",
+      "trace_offset_s": 17.848833,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.392594,
+      "work_seed": "poisson-404-000036"
+    },
+    {
+      "job_id": "000037",
+      "trace_offset_s": 18.668492,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.026651,
+      "work_seed": "poisson-404-000037"
+    },
+    {
+      "job_id": "000038",
+      "trace_offset_s": 18.909898,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.23645,
+      "work_seed": "poisson-404-000038"
+    },
+    {
+      "job_id": "000039",
+      "trace_offset_s": 19.589773,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.012142,
+      "work_seed": "poisson-404-000039"
+    },
+    {
+      "job_id": "000040",
+      "trace_offset_s": 19.77102,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.005,
+      "work_seed": "poisson-404-000040"
+    },
+    {
+      "job_id": "000041",
+      "trace_offset_s": 19.908107,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.151026,
+      "work_seed": "poisson-404-000041"
+    },
+    {
+      "job_id": "000042",
+      "trace_offset_s": 22.521743,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.041147,
+      "work_seed": "poisson-404-000042"
+    },
+    {
+      "job_id": "000043",
+      "trace_offset_s": 22.670492,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.012067,
+      "work_seed": "poisson-404-000043"
+    },
+    {
+      "job_id": "000044",
+      "trace_offset_s": 22.841719,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.017938,
+      "work_seed": "poisson-404-000044"
+    },
+    {
+      "job_id": "000045",
+      "trace_offset_s": 23.02849,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.232374,
+      "work_seed": "poisson-404-000045"
+    },
+    {
+      "job_id": "000046",
+      "trace_offset_s": 23.469535,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.437594,
+      "work_seed": "poisson-404-000046"
+    },
+    {
+      "job_id": "000047",
+      "trace_offset_s": 23.606689,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.203814,
+      "work_seed": "poisson-404-000047"
+    },
+    {
+      "job_id": "000048",
+      "trace_offset_s": 23.63405,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.277232,
+      "work_seed": "poisson-404-000048"
+    },
+    {
+      "job_id": "000049",
+      "trace_offset_s": 23.907449,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.151357,
+      "work_seed": "poisson-404-000049"
+    },
+    {
+      "job_id": "000050",
+      "trace_offset_s": 24.289397,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.42584,
+      "work_seed": "poisson-404-000050"
+    },
+    {
+      "job_id": "000051",
+      "trace_offset_s": 24.296437,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.132535,
+      "work_seed": "poisson-404-000051"
+    },
+    {
+      "job_id": "000052",
+      "trace_offset_s": 26.959384,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.096231,
+      "work_seed": "poisson-404-000052"
+    },
+    {
+      "job_id": "000053",
+      "trace_offset_s": 27.034807,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.167993,
+      "work_seed": "poisson-404-000053"
+    },
+    {
+      "job_id": "000054",
+      "trace_offset_s": 27.485638,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.043316,
+      "work_seed": "poisson-404-000054"
+    },
+    {
+      "job_id": "000055",
+      "trace_offset_s": 29.601592,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.101023,
+      "work_seed": "poisson-404-000055"
+    },
+    {
+      "job_id": "000056",
+      "trace_offset_s": 30.584136,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.13646,
+      "work_seed": "poisson-404-000056"
+    },
+    {
+      "job_id": "000057",
+      "trace_offset_s": 31.955593,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.160184,
+      "work_seed": "poisson-404-000057"
+    },
+    {
+      "job_id": "000058",
+      "trace_offset_s": 33.784428,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.056642,
+      "work_seed": "poisson-404-000058"
+    },
+    {
+      "job_id": "000059",
+      "trace_offset_s": 34.48762,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.402475,
+      "work_seed": "poisson-404-000059"
+    },
+    {
+      "job_id": "000060",
+      "trace_offset_s": 34.988683,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.078766,
+      "work_seed": "poisson-404-000060"
+    },
+    {
+      "job_id": "000061",
+      "trace_offset_s": 35.514306,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.076784,
+      "work_seed": "poisson-404-000061"
+    },
+    {
+      "job_id": "000062",
+      "trace_offset_s": 35.721922,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.053581,
+      "work_seed": "poisson-404-000062"
+    },
+    {
+      "job_id": "000063",
+      "trace_offset_s": 37.468595,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.082477,
+      "work_seed": "poisson-404-000063"
+    },
+    {
+      "job_id": "000064",
+      "trace_offset_s": 37.863287,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.212556,
+      "work_seed": "poisson-404-000064"
+    },
+    {
+      "job_id": "000065",
+      "trace_offset_s": 38.639724,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.042019,
+      "work_seed": "poisson-404-000065"
+    },
+    {
+      "job_id": "000066",
+      "trace_offset_s": 38.768769,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.09467,
+      "work_seed": "poisson-404-000066"
+    },
+    {
+      "job_id": "000067",
+      "trace_offset_s": 38.824762,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.173848,
+      "work_seed": "poisson-404-000067"
+    },
+    {
+      "job_id": "000068",
+      "trace_offset_s": 39.325993,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.0526,
+      "work_seed": "poisson-404-000068"
+    },
+    {
+      "job_id": "000069",
+      "trace_offset_s": 41.800137,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.046973,
+      "work_seed": "poisson-404-000069"
+    },
+    {
+      "job_id": "000070",
+      "trace_offset_s": 42.150345,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.151293,
+      "work_seed": "poisson-404-000070"
+    },
+    {
+      "job_id": "000071",
+      "trace_offset_s": 42.332842,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.24253,
+      "work_seed": "poisson-404-000071"
+    },
+    {
+      "job_id": "000072",
+      "trace_offset_s": 42.660908,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.310488,
+      "work_seed": "poisson-404-000072"
+    },
+    {
+      "job_id": "000073",
+      "trace_offset_s": 45.127687,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.129478,
+      "work_seed": "poisson-404-000073"
+    },
+    {
+      "job_id": "000074",
+      "trace_offset_s": 45.288401,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.017476,
+      "work_seed": "poisson-404-000074"
+    },
+    {
+      "job_id": "000075",
+      "trace_offset_s": 45.618454,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.114071,
+      "work_seed": "poisson-404-000075"
+    },
+    {
+      "job_id": "000076",
+      "trace_offset_s": 46.358484,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.095004,
+      "work_seed": "poisson-404-000076"
+    },
+    {
+      "job_id": "000077",
+      "trace_offset_s": 46.539467,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.356021,
+      "work_seed": "poisson-404-000077"
+    },
+    {
+      "job_id": "000078",
+      "trace_offset_s": 46.937614,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.268763,
+      "work_seed": "poisson-404-000078"
+    },
+    {
+      "job_id": "000079",
+      "trace_offset_s": 47.084457,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.294266,
+      "work_seed": "poisson-404-000079"
+    },
+    {
+      "job_id": "000080",
+      "trace_offset_s": 48.142558,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.027768,
+      "work_seed": "poisson-404-000080"
+    },
+    {
+      "job_id": "000081",
+      "trace_offset_s": 48.205545,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.216637,
+      "work_seed": "poisson-404-000081"
+    },
+    {
+      "job_id": "000082",
+      "trace_offset_s": 48.296567,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.46305,
+      "work_seed": "poisson-404-000082"
+    },
+    {
+      "job_id": "000083",
+      "trace_offset_s": 48.624339,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.361855,
+      "work_seed": "poisson-404-000083"
+    },
+    {
+      "job_id": "000084",
+      "trace_offset_s": 49.516576,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.165233,
+      "work_seed": "poisson-404-000084"
+    },
+    {
+      "job_id": "000085",
+      "trace_offset_s": 50.50025,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.185792,
+      "work_seed": "poisson-404-000085"
+    },
+    {
+      "job_id": "000086",
+      "trace_offset_s": 52.160665,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.084879,
+      "work_seed": "poisson-404-000086"
+    },
+    {
+      "job_id": "000087",
+      "trace_offset_s": 52.512874,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.08027,
+      "work_seed": "poisson-404-000087"
+    },
+    {
+      "job_id": "000088",
+      "trace_offset_s": 52.585434,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.294868,
+      "work_seed": "poisson-404-000088"
+    },
+    {
+      "job_id": "000089",
+      "trace_offset_s": 53.03714,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.179263,
+      "work_seed": "poisson-404-000089"
+    },
+    {
+      "job_id": "000090",
+      "trace_offset_s": 53.899254,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.05457,
+      "work_seed": "poisson-404-000090"
+    },
+    {
+      "job_id": "000091",
+      "trace_offset_s": 54.291656,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.092653,
+      "work_seed": "poisson-404-000091"
+    },
+    {
+      "job_id": "000092",
+      "trace_offset_s": 55.001852,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.250092,
+      "work_seed": "poisson-404-000092"
+    },
+    {
+      "job_id": "000093",
+      "trace_offset_s": 55.398563,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.229317,
+      "work_seed": "poisson-404-000093"
+    },
+    {
+      "job_id": "000094",
+      "trace_offset_s": 55.863638,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.601681,
+      "work_seed": "poisson-404-000094"
+    },
+    {
+      "job_id": "000095",
+      "trace_offset_s": 57.392231,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.251411,
+      "work_seed": "poisson-404-000095"
+    },
+    {
+      "job_id": "000096",
+      "trace_offset_s": 57.700212,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.105018,
+      "work_seed": "poisson-404-000096"
+    },
+    {
+      "job_id": "000097",
+      "trace_offset_s": 58.165906,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.165448,
+      "work_seed": "poisson-404-000097"
+    },
+    {
+      "job_id": "000098",
+      "trace_offset_s": 58.577915,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.052438,
+      "work_seed": "poisson-404-000098"
+    },
+    {
+      "job_id": "000099",
+      "trace_offset_s": 60.891159,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.098404,
+      "work_seed": "poisson-404-000099"
+    },
+    {
+      "job_id": "000100",
+      "trace_offset_s": 62.426645,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.101379,
+      "work_seed": "poisson-404-000100"
+    },
+    {
+      "job_id": "000101",
+      "trace_offset_s": 62.709685,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.005,
+      "work_seed": "poisson-404-000101"
+    },
+    {
+      "job_id": "000102",
+      "trace_offset_s": 63.079338,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.267726,
+      "work_seed": "poisson-404-000102"
+    },
+    {
+      "job_id": "000103",
+      "trace_offset_s": 63.366064,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.545001,
+      "work_seed": "poisson-404-000103"
+    },
+    {
+      "job_id": "000104",
+      "trace_offset_s": 63.437924,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.284521,
+      "work_seed": "poisson-404-000104"
+    },
+    {
+      "job_id": "000105",
+      "trace_offset_s": 63.781203,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.180734,
+      "work_seed": "poisson-404-000105"
+    },
+    {
+      "job_id": "000106",
+      "trace_offset_s": 64.342232,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.270947,
+      "work_seed": "poisson-404-000106"
+    },
+    {
+      "job_id": "000107",
+      "trace_offset_s": 64.623784,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.442198,
+      "work_seed": "poisson-404-000107"
+    },
+    {
+      "job_id": "000108",
+      "trace_offset_s": 65.072887,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.100101,
+      "work_seed": "poisson-404-000108"
+    },
+    {
+      "job_id": "000109",
+      "trace_offset_s": 65.174518,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.376498,
+      "work_seed": "poisson-404-000109"
+    },
+    {
+      "job_id": "000110",
+      "trace_offset_s": 66.638873,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.477127,
+      "work_seed": "poisson-404-000110"
+    },
+    {
+      "job_id": "000111",
+      "trace_offset_s": 67.390328,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.025894,
+      "work_seed": "poisson-404-000111"
+    },
+    {
+      "job_id": "000112",
+      "trace_offset_s": 67.399465,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.728668,
+      "work_seed": "poisson-404-000112"
+    },
+    {
+      "job_id": "000113",
+      "trace_offset_s": 67.62719,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.236378,
+      "work_seed": "poisson-404-000113"
+    },
+    {
+      "job_id": "000114",
+      "trace_offset_s": 68.397025,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.450432,
+      "work_seed": "poisson-404-000114"
+    },
+    {
+      "job_id": "000115",
+      "trace_offset_s": 69.75611,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.037085,
+      "work_seed": "poisson-404-000115"
+    },
+    {
+      "job_id": "000116",
+      "trace_offset_s": 70.306569,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.386772,
+      "work_seed": "poisson-404-000116"
+    },
+    {
+      "job_id": "000117",
+      "trace_offset_s": 70.356925,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.11785,
+      "work_seed": "poisson-404-000117"
+    },
+    {
+      "job_id": "000118",
+      "trace_offset_s": 70.82544,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.034585,
+      "work_seed": "poisson-404-000118"
+    },
+    {
+      "job_id": "000119",
+      "trace_offset_s": 70.847369,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.055191,
+      "work_seed": "poisson-404-000119"
+    },
+    {
+      "job_id": "000120",
+      "trace_offset_s": 70.942972,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.11777,
+      "work_seed": "poisson-404-000120"
+    },
+    {
+      "job_id": "000121",
+      "trace_offset_s": 71.122492,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.148252,
+      "work_seed": "poisson-404-000121"
+    },
+    {
+      "job_id": "000122",
+      "trace_offset_s": 71.742575,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.005,
+      "work_seed": "poisson-404-000122"
+    },
+    {
+      "job_id": "000123",
+      "trace_offset_s": 71.997502,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.014574,
+      "work_seed": "poisson-404-000123"
+    },
+    {
+      "job_id": "000124",
+      "trace_offset_s": 72.07969,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.255325,
+      "work_seed": "poisson-404-000124"
+    },
+    {
+      "job_id": "000125",
+      "trace_offset_s": 72.499785,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.166695,
+      "work_seed": "poisson-404-000125"
+    },
+    {
+      "job_id": "000126",
+      "trace_offset_s": 73.31399,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.120213,
+      "work_seed": "poisson-404-000126"
+    },
+    {
+      "job_id": "000127",
+      "trace_offset_s": 73.490329,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.314936,
+      "work_seed": "poisson-404-000127"
+    },
+    {
+      "job_id": "000128",
+      "trace_offset_s": 74.470409,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.069564,
+      "work_seed": "poisson-404-000128"
+    },
+    {
+      "job_id": "000129",
+      "trace_offset_s": 74.473254,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.206529,
+      "work_seed": "poisson-404-000129"
+    },
+    {
+      "job_id": "000130",
+      "trace_offset_s": 74.903653,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.176868,
+      "work_seed": "poisson-404-000130"
+    },
+    {
+      "job_id": "000131",
+      "trace_offset_s": 74.91272,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.211911,
+      "work_seed": "poisson-404-000131"
+    },
+    {
+      "job_id": "000132",
+      "trace_offset_s": 75.688291,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.092087,
+      "work_seed": "poisson-404-000132"
+    },
+    {
+      "job_id": "000133",
+      "trace_offset_s": 75.848261,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.439853,
+      "work_seed": "poisson-404-000133"
+    },
+    {
+      "job_id": "000134",
+      "trace_offset_s": 77.332737,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.145725,
+      "work_seed": "poisson-404-000134"
+    },
+    {
+      "job_id": "000135",
+      "trace_offset_s": 78.375913,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.170709,
+      "work_seed": "poisson-404-000135"
+    },
+    {
+      "job_id": "000136",
+      "trace_offset_s": 78.689425,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.069835,
+      "work_seed": "poisson-404-000136"
+    },
+    {
+      "job_id": "000137",
+      "trace_offset_s": 78.700165,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.082093,
+      "work_seed": "poisson-404-000137"
+    },
+    {
+      "job_id": "000138",
+      "trace_offset_s": 78.795371,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.131503,
+      "work_seed": "poisson-404-000138"
+    },
+    {
+      "job_id": "000139",
+      "trace_offset_s": 80.782043,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.22266,
+      "work_seed": "poisson-404-000139"
+    },
+    {
+      "job_id": "000140",
+      "trace_offset_s": 81.195342,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.192572,
+      "work_seed": "poisson-404-000140"
+    },
+    {
+      "job_id": "000141",
+      "trace_offset_s": 82.390826,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.12052,
+      "work_seed": "poisson-404-000141"
+    },
+    {
+      "job_id": "000142",
+      "trace_offset_s": 83.888938,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.034897,
+      "work_seed": "poisson-404-000142"
+    },
+    {
+      "job_id": "000143",
+      "trace_offset_s": 84.078916,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.058145,
+      "work_seed": "poisson-404-000143"
+    },
+    {
+      "job_id": "000144",
+      "trace_offset_s": 84.792697,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.051215,
+      "work_seed": "poisson-404-000144"
+    },
+    {
+      "job_id": "000145",
+      "trace_offset_s": 85.271729,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.171493,
+      "work_seed": "poisson-404-000145"
+    },
+    {
+      "job_id": "000146",
+      "trace_offset_s": 85.806795,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.097984,
+      "work_seed": "poisson-404-000146"
+    },
+    {
+      "job_id": "000147",
+      "trace_offset_s": 86.077087,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.041839,
+      "work_seed": "poisson-404-000147"
+    },
+    {
+      "job_id": "000148",
+      "trace_offset_s": 86.422826,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.060359,
+      "work_seed": "poisson-404-000148"
+    },
+    {
+      "job_id": "000149",
+      "trace_offset_s": 88.854318,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.248038,
+      "work_seed": "poisson-404-000149"
+    },
+    {
+      "job_id": "000150",
+      "trace_offset_s": 89.640086,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.226973,
+      "work_seed": "poisson-404-000150"
+    },
+    {
+      "job_id": "000151",
+      "trace_offset_s": 90.083618,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.00595,
+      "work_seed": "poisson-404-000151"
+    },
+    {
+      "job_id": "000152",
+      "trace_offset_s": 90.410267,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.492249,
+      "work_seed": "poisson-404-000152"
+    },
+    {
+      "job_id": "000153",
+      "trace_offset_s": 90.739751,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.50686,
+      "work_seed": "poisson-404-000153"
+    },
+    {
+      "job_id": "000154",
+      "trace_offset_s": 91.108739,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.843693,
+      "work_seed": "poisson-404-000154"
+    },
+    {
+      "job_id": "000155",
+      "trace_offset_s": 91.812524,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.102803,
+      "work_seed": "poisson-404-000155"
+    },
+    {
+      "job_id": "000156",
+      "trace_offset_s": 92.419314,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.089857,
+      "work_seed": "poisson-404-000156"
+    },
+    {
+      "job_id": "000157",
+      "trace_offset_s": 93.299531,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.323489,
+      "work_seed": "poisson-404-000157"
+    },
+    {
+      "job_id": "000158",
+      "trace_offset_s": 94.324324,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.243065,
+      "work_seed": "poisson-404-000158"
+    },
+    {
+      "job_id": "000159",
+      "trace_offset_s": 94.432973,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.117407,
+      "work_seed": "poisson-404-000159"
+    },
+    {
+      "job_id": "000160",
+      "trace_offset_s": 95.298721,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.093629,
+      "work_seed": "poisson-404-000160"
+    },
+    {
+      "job_id": "000161",
+      "trace_offset_s": 95.858917,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.03923,
+      "work_seed": "poisson-404-000161"
+    },
+    {
+      "job_id": "000162",
+      "trace_offset_s": 96.250668,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.016619,
+      "work_seed": "poisson-404-000162"
+    },
+    {
+      "job_id": "000163",
+      "trace_offset_s": 97.199409,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.623269,
+      "work_seed": "poisson-404-000163"
+    },
+    {
+      "job_id": "000164",
+      "trace_offset_s": 99.803618,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.192729,
+      "work_seed": "poisson-404-000164"
+    },
+    {
+      "job_id": "000165",
+      "trace_offset_s": 100.358649,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.110637,
+      "work_seed": "poisson-404-000165"
+    },
+    {
+      "job_id": "000166",
+      "trace_offset_s": 100.560962,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.028748,
+      "work_seed": "poisson-404-000166"
+    },
+    {
+      "job_id": "000167",
+      "trace_offset_s": 100.619475,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.23556,
+      "work_seed": "poisson-404-000167"
+    },
+    {
+      "job_id": "000168",
+      "trace_offset_s": 101.183322,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.536678,
+      "work_seed": "poisson-404-000168"
+    },
+    {
+      "job_id": "000169",
+      "trace_offset_s": 101.338511,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.085086,
+      "work_seed": "poisson-404-000169"
+    },
+    {
+      "job_id": "000170",
+      "trace_offset_s": 101.841293,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.372351,
+      "work_seed": "poisson-404-000170"
+    },
+    {
+      "job_id": "000171",
+      "trace_offset_s": 104.269541,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.058648,
+      "work_seed": "poisson-404-000171"
+    },
+    {
+      "job_id": "000172",
+      "trace_offset_s": 105.547216,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.167162,
+      "work_seed": "poisson-404-000172"
+    },
+    {
+      "job_id": "000173",
+      "trace_offset_s": 105.651754,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.409812,
+      "work_seed": "poisson-404-000173"
+    },
+    {
+      "job_id": "000174",
+      "trace_offset_s": 105.788067,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.387456,
+      "work_seed": "poisson-404-000174"
+    },
+    {
+      "job_id": "000175",
+      "trace_offset_s": 106.375229,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.155936,
+      "work_seed": "poisson-404-000175"
+    },
+    {
+      "job_id": "000176",
+      "trace_offset_s": 106.479843,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.22867,
+      "work_seed": "poisson-404-000176"
+    },
+    {
+      "job_id": "000177",
+      "trace_offset_s": 106.585309,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.211957,
+      "work_seed": "poisson-404-000177"
+    },
+    {
+      "job_id": "000178",
+      "trace_offset_s": 106.75748,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.127191,
+      "work_seed": "poisson-404-000178"
+    },
+    {
+      "job_id": "000179",
+      "trace_offset_s": 107.172822,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.014871,
+      "work_seed": "poisson-404-000179"
+    },
+    {
+      "job_id": "000180",
+      "trace_offset_s": 107.614613,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.280648,
+      "work_seed": "poisson-404-000180"
+    },
+    {
+      "job_id": "000181",
+      "trace_offset_s": 107.790101,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.159296,
+      "work_seed": "poisson-404-000181"
+    },
+    {
+      "job_id": "000182",
+      "trace_offset_s": 107.858392,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.243044,
+      "work_seed": "poisson-404-000182"
+    },
+    {
+      "job_id": "000183",
+      "trace_offset_s": 108.367111,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.384312,
+      "work_seed": "poisson-404-000183"
+    },
+    {
+      "job_id": "000184",
+      "trace_offset_s": 108.485168,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.368433,
+      "work_seed": "poisson-404-000184"
+    },
+    {
+      "job_id": "000185",
+      "trace_offset_s": 108.679205,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.17272,
+      "work_seed": "poisson-404-000185"
+    },
+    {
+      "job_id": "000186",
+      "trace_offset_s": 110.340435,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.356567,
+      "work_seed": "poisson-404-000186"
+    },
+    {
+      "job_id": "000187",
+      "trace_offset_s": 114.828946,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.120283,
+      "work_seed": "poisson-404-000187"
+    },
+    {
+      "job_id": "000188",
+      "trace_offset_s": 114.837674,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.098367,
+      "work_seed": "poisson-404-000188"
+    },
+    {
+      "job_id": "000189",
+      "trace_offset_s": 115.980679,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.168524,
+      "work_seed": "poisson-404-000189"
+    },
+    {
+      "job_id": "000190",
+      "trace_offset_s": 116.688383,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.022565,
+      "work_seed": "poisson-404-000190"
+    },
+    {
+      "job_id": "000191",
+      "trace_offset_s": 119.004735,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.063882,
+      "work_seed": "poisson-404-000191"
+    },
+    {
+      "job_id": "000192",
+      "trace_offset_s": 119.74488,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.007431,
+      "work_seed": "poisson-404-000192"
+    },
+    {
+      "job_id": "000193",
+      "trace_offset_s": 119.978717,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.647341,
+      "work_seed": "poisson-404-000193"
+    },
+    {
+      "job_id": "000194",
+      "trace_offset_s": 120.456311,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.19276,
+      "work_seed": "poisson-404-000194"
+    },
+    {
+      "job_id": "000195",
+      "trace_offset_s": 120.938364,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.466959,
+      "work_seed": "poisson-404-000195"
+    },
+    {
+      "job_id": "000196",
+      "trace_offset_s": 121.719995,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.417681,
+      "work_seed": "poisson-404-000196"
+    },
+    {
+      "job_id": "000197",
+      "trace_offset_s": 122.136239,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.247755,
+      "work_seed": "poisson-404-000197"
+    },
+    {
+      "job_id": "000198",
+      "trace_offset_s": 122.649033,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.259634,
+      "work_seed": "poisson-404-000198"
+    },
+    {
+      "job_id": "000199",
+      "trace_offset_s": 123.737343,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.130199,
+      "work_seed": "poisson-404-000199"
+    },
+    {
+      "job_id": "000200",
+      "trace_offset_s": 124.392965,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.070806,
+      "work_seed": "poisson-404-000200"
+    },
+    {
+      "job_id": "000201",
+      "trace_offset_s": 124.928084,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.025781,
+      "work_seed": "poisson-404-000201"
+    },
+    {
+      "job_id": "000202",
+      "trace_offset_s": 126.200601,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.149894,
+      "work_seed": "poisson-404-000202"
+    },
+    {
+      "job_id": "000203",
+      "trace_offset_s": 126.540212,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.128709,
+      "work_seed": "poisson-404-000203"
+    },
+    {
+      "job_id": "000204",
+      "trace_offset_s": 126.733835,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.237658,
+      "work_seed": "poisson-404-000204"
+    },
+    {
+      "job_id": "000205",
+      "trace_offset_s": 126.829227,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.378401,
+      "work_seed": "poisson-404-000205"
+    },
+    {
+      "job_id": "000206",
+      "trace_offset_s": 127.33067,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.155705,
+      "work_seed": "poisson-404-000206"
+    },
+    {
+      "job_id": "000207",
+      "trace_offset_s": 127.562175,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.225008,
+      "work_seed": "poisson-404-000207"
+    },
+    {
+      "job_id": "000208",
+      "trace_offset_s": 128.554827,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.124596,
+      "work_seed": "poisson-404-000208"
+    },
+    {
+      "job_id": "000209",
+      "trace_offset_s": 128.954687,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.142326,
+      "work_seed": "poisson-404-000209"
+    },
+    {
+      "job_id": "000210",
+      "trace_offset_s": 129.037781,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.074598,
+      "work_seed": "poisson-404-000210"
+    },
+    {
+      "job_id": "000211",
+      "trace_offset_s": 129.344111,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.225247,
+      "work_seed": "poisson-404-000211"
+    },
+    {
+      "job_id": "000212",
+      "trace_offset_s": 129.994748,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.355064,
+      "work_seed": "poisson-404-000212"
+    },
+    {
+      "job_id": "000213",
+      "trace_offset_s": 131.07544,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.067129,
+      "work_seed": "poisson-404-000213"
+    },
+    {
+      "job_id": "000214",
+      "trace_offset_s": 131.799767,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.183432,
+      "work_seed": "poisson-404-000214"
+    },
+    {
+      "job_id": "000215",
+      "trace_offset_s": 131.861661,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.0622,
+      "work_seed": "poisson-404-000215"
+    },
+    {
+      "job_id": "000216",
+      "trace_offset_s": 132.717068,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.140571,
+      "work_seed": "poisson-404-000216"
+    },
+    {
+      "job_id": "000217",
+      "trace_offset_s": 133.323844,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.010391,
+      "work_seed": "poisson-404-000217"
+    },
+    {
+      "job_id": "000218",
+      "trace_offset_s": 134.224572,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.243916,
+      "work_seed": "poisson-404-000218"
+    },
+    {
+      "job_id": "000219",
+      "trace_offset_s": 134.669968,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.160583,
+      "work_seed": "poisson-404-000219"
+    },
+    {
+      "job_id": "000220",
+      "trace_offset_s": 136.64437,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.01501,
+      "work_seed": "poisson-404-000220"
+    },
+    {
+      "job_id": "000221",
+      "trace_offset_s": 137.146205,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.197734,
+      "work_seed": "poisson-404-000221"
+    },
+    {
+      "job_id": "000222",
+      "trace_offset_s": 137.593411,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.310821,
+      "work_seed": "poisson-404-000222"
+    },
+    {
+      "job_id": "000223",
+      "trace_offset_s": 139.595638,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.058778,
+      "work_seed": "poisson-404-000223"
+    },
+    {
+      "job_id": "000224",
+      "trace_offset_s": 140.124104,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.029596,
+      "work_seed": "poisson-404-000224"
+    },
+    {
+      "job_id": "000225",
+      "trace_offset_s": 140.925872,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.014973,
+      "work_seed": "poisson-404-000225"
+    },
+    {
+      "job_id": "000226",
+      "trace_offset_s": 141.719913,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.078155,
+      "work_seed": "poisson-404-000226"
+    },
+    {
+      "job_id": "000227",
+      "trace_offset_s": 143.08048,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.114385,
+      "work_seed": "poisson-404-000227"
+    },
+    {
+      "job_id": "000228",
+      "trace_offset_s": 143.913668,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.139532,
+      "work_seed": "poisson-404-000228"
+    },
+    {
+      "job_id": "000229",
+      "trace_offset_s": 144.101744,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.489367,
+      "work_seed": "poisson-404-000229"
+    },
+    {
+      "job_id": "000230",
+      "trace_offset_s": 144.311588,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.007331,
+      "work_seed": "poisson-404-000230"
+    },
+    {
+      "job_id": "000231",
+      "trace_offset_s": 144.465194,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.010641,
+      "work_seed": "poisson-404-000231"
+    },
+    {
+      "job_id": "000232",
+      "trace_offset_s": 145.109954,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.39179,
+      "work_seed": "poisson-404-000232"
+    },
+    {
+      "job_id": "000233",
+      "trace_offset_s": 146.035281,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.378329,
+      "work_seed": "poisson-404-000233"
+    },
+    {
+      "job_id": "000234",
+      "trace_offset_s": 147.570615,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.152182,
+      "work_seed": "poisson-404-000234"
+    },
+    {
+      "job_id": "000235",
+      "trace_offset_s": 147.866523,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.023981,
+      "work_seed": "poisson-404-000235"
+    },
+    {
+      "job_id": "000236",
+      "trace_offset_s": 148.962025,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.094979,
+      "work_seed": "poisson-404-000236"
+    },
+    {
+      "job_id": "000237",
+      "trace_offset_s": 149.603522,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.059219,
+      "work_seed": "poisson-404-000237"
+    },
+    {
+      "job_id": "000238",
+      "trace_offset_s": 149.677541,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.082236,
+      "work_seed": "poisson-404-000238"
+    },
+    {
+      "job_id": "000239",
+      "trace_offset_s": 150.41212,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.188512,
+      "work_seed": "poisson-404-000239"
+    },
+    {
+      "job_id": "000240",
+      "trace_offset_s": 153.404546,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.062358,
+      "work_seed": "poisson-404-000240"
+    },
+    {
+      "job_id": "000241",
+      "trace_offset_s": 153.43103,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.288212,
+      "work_seed": "poisson-404-000241"
+    },
+    {
+      "job_id": "000242",
+      "trace_offset_s": 154.394096,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.11856,
+      "work_seed": "poisson-404-000242"
+    },
+    {
+      "job_id": "000243",
+      "trace_offset_s": 154.699324,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.383189,
+      "work_seed": "poisson-404-000243"
+    },
+    {
+      "job_id": "000244",
+      "trace_offset_s": 155.321034,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.067829,
+      "work_seed": "poisson-404-000244"
+    },
+    {
+      "job_id": "000245",
+      "trace_offset_s": 155.370776,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.079137,
+      "work_seed": "poisson-404-000245"
+    },
+    {
+      "job_id": "000246",
+      "trace_offset_s": 156.348045,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.11428,
+      "work_seed": "poisson-404-000246"
+    },
+    {
+      "job_id": "000247",
+      "trace_offset_s": 157.020753,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.279953,
+      "work_seed": "poisson-404-000247"
+    },
+    {
+      "job_id": "000248",
+      "trace_offset_s": 157.146053,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.036558,
+      "work_seed": "poisson-404-000248"
+    },
+    {
+      "job_id": "000249",
+      "trace_offset_s": 157.517921,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.120922,
+      "work_seed": "poisson-404-000249"
+    },
+    {
+      "job_id": "000250",
+      "trace_offset_s": 158.783041,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.194273,
+      "work_seed": "poisson-404-000250"
+    },
+    {
+      "job_id": "000251",
+      "trace_offset_s": 159.337523,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.232914,
+      "work_seed": "poisson-404-000251"
+    },
+    {
+      "job_id": "000252",
+      "trace_offset_s": 159.620281,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.361879,
+      "work_seed": "poisson-404-000252"
+    },
+    {
+      "job_id": "000253",
+      "trace_offset_s": 159.768838,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.291933,
+      "work_seed": "poisson-404-000253"
+    },
+    {
+      "job_id": "000254",
+      "trace_offset_s": 161.894678,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.291344,
+      "work_seed": "poisson-404-000254"
+    },
+    {
+      "job_id": "000255",
+      "trace_offset_s": 161.903561,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.278978,
+      "work_seed": "poisson-404-000255"
+    },
+    {
+      "job_id": "000256",
+      "trace_offset_s": 164.331985,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.080556,
+      "work_seed": "poisson-404-000256"
+    },
+    {
+      "job_id": "000257",
+      "trace_offset_s": 164.992812,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.005,
+      "work_seed": "poisson-404-000257"
+    },
+    {
+      "job_id": "000258",
+      "trace_offset_s": 165.233792,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.017686,
+      "work_seed": "poisson-404-000258"
+    },
+    {
+      "job_id": "000259",
+      "trace_offset_s": 165.413268,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.122965,
+      "work_seed": "poisson-404-000259"
+    },
+    {
+      "job_id": "000260",
+      "trace_offset_s": 165.83244,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.568185,
+      "work_seed": "poisson-404-000260"
+    },
+    {
+      "job_id": "000261",
+      "trace_offset_s": 166.727309,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.429455,
+      "work_seed": "poisson-404-000261"
+    },
+    {
+      "job_id": "000262",
+      "trace_offset_s": 166.90181,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.976332,
+      "work_seed": "poisson-404-000262"
+    },
+    {
+      "job_id": "000263",
+      "trace_offset_s": 167.018103,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.737984,
+      "work_seed": "poisson-404-000263"
+    },
+    {
+      "job_id": "000264",
+      "trace_offset_s": 168.865309,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.335087,
+      "work_seed": "poisson-404-000264"
+    },
+    {
+      "job_id": "000265",
+      "trace_offset_s": 168.887472,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.342695,
+      "work_seed": "poisson-404-000265"
+    },
+    {
+      "job_id": "000266",
+      "trace_offset_s": 169.393538,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.369649,
+      "work_seed": "poisson-404-000266"
+    },
+    {
+      "job_id": "000267",
+      "trace_offset_s": 170.583844,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.515399,
+      "work_seed": "poisson-404-000267"
+    },
+    {
+      "job_id": "000268",
+      "trace_offset_s": 170.844969,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.059664,
+      "work_seed": "poisson-404-000268"
+    },
+    {
+      "job_id": "000269",
+      "trace_offset_s": 171.443565,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.006631,
+      "work_seed": "poisson-404-000269"
+    },
+    {
+      "job_id": "000270",
+      "trace_offset_s": 171.503235,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.968883,
+      "work_seed": "poisson-404-000270"
+    },
+    {
+      "job_id": "000271",
+      "trace_offset_s": 171.569646,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.219003,
+      "work_seed": "poisson-404-000271"
+    },
+    {
+      "job_id": "000272",
+      "trace_offset_s": 172.752005,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.034042,
+      "work_seed": "poisson-404-000272"
+    },
+    {
+      "job_id": "000273",
+      "trace_offset_s": 173.337652,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.399046,
+      "work_seed": "poisson-404-000273"
+    },
+    {
+      "job_id": "000274",
+      "trace_offset_s": 173.74094,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.172071,
+      "work_seed": "poisson-404-000274"
+    },
+    {
+      "job_id": "000275",
+      "trace_offset_s": 173.974294,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.170041,
+      "work_seed": "poisson-404-000275"
+    },
+    {
+      "job_id": "000276",
+      "trace_offset_s": 175.027619,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.171492,
+      "work_seed": "poisson-404-000276"
+    },
+    {
+      "job_id": "000277",
+      "trace_offset_s": 175.464035,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.256216,
+      "work_seed": "poisson-404-000277"
+    },
+    {
+      "job_id": "000278",
+      "trace_offset_s": 175.829992,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.15178,
+      "work_seed": "poisson-404-000278"
+    },
+    {
+      "job_id": "000279",
+      "trace_offset_s": 176.718247,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.005,
+      "work_seed": "poisson-404-000279"
+    },
+    {
+      "job_id": "000280",
+      "trace_offset_s": 176.897282,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.099511,
+      "work_seed": "poisson-404-000280"
+    },
+    {
+      "job_id": "000281",
+      "trace_offset_s": 177.515438,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.320812,
+      "work_seed": "poisson-404-000281"
+    },
+    {
+      "job_id": "000282",
+      "trace_offset_s": 177.700527,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.12642,
+      "work_seed": "poisson-404-000282"
+    },
+    {
+      "job_id": "000283",
+      "trace_offset_s": 179.173838,
+      "arrival_state": "poisson",
+      "service_cpu_seconds": 0.009902,
+      "work_seed": "poisson-404-000283"
+    }
+  ]
+}

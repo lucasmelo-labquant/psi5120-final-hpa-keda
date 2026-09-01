@@ -1,0 +1,78 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Low-cost SQS, ECR, and least-privilege IAM policies for PSI5120.
+
+Resources:
+  InputQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: psi5120-final-input
+      MessageRetentionPeriod: 86400
+      ReceiveMessageWaitTimeSeconds: 10
+      VisibilityTimeout: 120
+      Tags:
+        - Key: Project
+          Value: PSI5120-FINAL
+  ResultQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: psi5120-final-results
+      MessageRetentionPeriod: 86400
+      ReceiveMessageWaitTimeSeconds: 10
+      VisibilityTimeout: 60
+      Tags:
+        - Key: Project
+          Value: PSI5120-FINAL
+  WorkerRepository:
+    Type: AWS::ECR::Repository
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      RepositoryName: psi5120-final-worker
+      EmptyOnDelete: true
+      ImageScanningConfiguration:
+        ScanOnPush: true
+      ImageTagMutability: IMMUTABLE
+      Tags:
+        - Key: Project
+          Value: PSI5120-FINAL
+  WorkerPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: PSI5120FinalWorkerPolicy
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action:
+              - sqs:ReceiveMessage
+              - sqs:DeleteMessage
+              - sqs:ChangeMessageVisibility
+              - sqs:GetQueueAttributes
+            Resource: !GetAtt InputQueue.Arn
+          - Effect: Allow
+            Action:
+              - sqs:SendMessage
+              - sqs:GetQueueAttributes
+            Resource: !GetAtt ResultQueue.Arn
+  KedaPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: PSI5120FinalKedaPolicy
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action: sqs:GetQueueAttributes
+            Resource: !GetAtt InputQueue.Arn
+
+Outputs:
+  InputQueueUrl:
+    Value: !Ref InputQueue
+  ResultQueueUrl:
+    Value: !Ref ResultQueue
+  WorkerRepositoryUri:
+    Value: !GetAtt WorkerRepository.RepositoryUri
+  WorkerPolicyArn:
+    Value: !Ref WorkerPolicy
+  KedaPolicyArn:
+    Value: !Ref KedaPolicy

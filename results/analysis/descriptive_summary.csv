@@ -1,0 +1,5 @@
+pattern,policy,latency_ms_p95_count,latency_ms_p95_mean,latency_ms_p95_median,ready_pod_seconds_count,ready_pod_seconds_mean,ready_pod_seconds_median,max_backlog_count,max_backlog_mean,max_backlog_median,scale_out_ready_s_count,scale_out_ready_s_mean,scale_out_ready_s_median,peak_ready_replicas_count,peak_ready_replicas_mean,peak_ready_replicas_median
+mmpp,hpa,9,7789.7444444444445,6535.000000000001,9,497.92722222222227,497.63499999999993,9,22.22222222222222,19.0,9,42.66255555555556,46.757,9,4.0,4.0
+mmpp,keda,8,18123.00625,15907.2,8,353.672625,353.07099999999997,8,43.0,39.0,8,68.035625,54.3475,8,3.625,4.0
+poisson,hpa,9,4307.53333333333,3605.0,9,513.2691111111112,513.143,9,9.11111111111111,9.0,9,42.31044444444444,36.773,9,4.0,4.0
+poisson,keda,9,8018.377777777774,7845.149999999993,9,269.64099999999996,266.51,9,14.444444444444445,15.0,9,73.58288888888889,81.544,9,2.4444444444444446,2.0

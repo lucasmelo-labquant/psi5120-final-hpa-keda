@@ -1,0 +1,16 @@
+{
+  "planned_main_runs": 40,
+  "completed_valid_main_runs": 35,
+  "complete_poisson_pairs": 9,
+  "complete_mmpp_pairs": 8,
+  "incomplete_cells": [
+    "mmpp-seed909-keda",
+    "poisson-seed1010-hpa",
+    "poisson-seed1010-keda",
+    "mmpp-seed1010-hpa",
+    "mmpp-seed1010-keda"
+  ],
+  "termination_reason": "Campaign stopped after extended runtime; available complete pairs were retained.",
+  "aws_cleanup_audited": true,
+  "billable_project_resources_remaining": 0
+}
